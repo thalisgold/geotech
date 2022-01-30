@@ -23,7 +23,9 @@
   - [How to test](#how-to-test)
   - [Dependencies](#dependencies)
     - [Frontend](#frontend)
+      - [Dev Dependencies](#dev-dependencies)
     - [Backend](#backend)
+    - [R](#r)
   - [Further Documentation](#further-documentation)
     - [Frontend](#frontend-1)
     - [Backend](#backend-1)
@@ -69,8 +71,8 @@ The user has the possibility to select a model to work with. He can either uploa
 #### Generation of a Sentinel-2 satellite image for the area of interest (Sentinel Image (AOI))
 * Based on the user inputs (area of interest (AOI) , time period and cloud cover), the Spatial Temporal Asset Catalog (STAC) is searched for matching Sentinel-2 satellite images.
 * For each Sentinel-2 image found, all bands (except ```B10```) are available for download. We only continue to work with those that have been pre-selected by the user. 
-* If many images are found, we limit ourselves to 200 for further calculation.
-* All images (max 200) are now superimposed and for each pixel the median is calculated over all images for each band.
+* If many images are found, we limit ourselves to 400 for further calculation.
+* All images (max 400) are now superimposed and for each pixel the median is calculated over all images for each band.
 * This can be helpful to avoid the problem of cloud cover and other interfering factors. In other words, the more images that can be found, the more likely it is to get a good image for model training and LULC classification.
 
 #### Generation of a Sentinel-2 satellite image for the areas where the training data is located (Sentinel Image (training area))

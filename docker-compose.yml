@@ -1,0 +1,13 @@
+version: '2' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  frontend: # name of the first service
+    build: frontend # specify the directory of the Dockerfile
+    ports:
+      - "8780:8780" # specify port forewarding
+
+  backend: #name of the second service
+    build: backend # specify the directory of the Dockerfile
+    ports:
+      - "8781:8781" #specify ports forwarding

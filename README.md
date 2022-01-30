@@ -87,7 +87,7 @@ With the help of the trained model and the generated sentinel image for the AOI,
 
 ## How to install and run the app
 
-To make it as simple as possible we used [Docker](https://www.docker.com) for the development. The only thing necessary to run this software, is to download this repository with `git clone --recursive https://github.com/geo-tech-project/geotech.git` and then run `docker-compsoe up --build`in the command line interface. This installs all dependencies for the front- and backend including all [R](https://www.r-project.org) packages. As these packages are not that small, this step could take up to one hour of building time (depending on your hardware). After building, the application will start automatically and you can access the webtool at `http://localhost:8780`. If you have terminated the application and want to restart it another time you can just leave out the `--build` tag of the `docker-compose up` command to start the app again.  
+To make it as simple as possible we used [Docker](https://www.docker.com) for the development. The only thing necessary to run this software, is to download this repository and run `docker-compsoe up --build`in the command line interface. This installs all dependencies for the front- and backend including all [R](https://www.r-project.org) packages. As these packages are not that small, this step could take up to one hour of building time (depending on your hardware). After building, the application will start automatically and you can access the webtool at `http://localhost:8780`. If you have terminated the application and want to restart it another time you can just leave out the `--build` tag of the `docker-compose up` command to start the app again.  
 
 
 ## How to use the app
@@ -247,5 +247,4 @@ Credits
 
 ## License
 Add license text here
-
 

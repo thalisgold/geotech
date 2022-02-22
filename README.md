@@ -242,10 +242,3 @@ The backend can be devided into three parts. The first part are the R scripts th
 - [API](http://35.80.3.64/documentation)
 - [Javascript](http://35.80.3.64/js)
 
-## Credits
-Credits
-
-## License
-Add license text here
-
-

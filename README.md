@@ -27,8 +27,6 @@
   - [Further Documentation](#further-documentation)
     - [Frontend](#frontend-1)
     - [Backend](#backend-1)
-  - [Credits](#credits)
-  - [License](#license)
 
 ## Authors
 Project of the course Geosoftware 2 at the [Institute of Geoinformatics](https://www.uni-muenster.de/Geoinformatics/en/) by [Jakob Danel](https://github.com/jakobdanel), 
